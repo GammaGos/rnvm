@@ -1,0 +1,25 @@
+{
+  "name": "rnvm",
+  "version": "0.1.0",
+  "description": "react native version manager",
+  "main": "rnvm-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rnvm": "rnvm-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GammaGos/rnvm.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "gammago@163.com",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/GammaGos/rnvm/issues"
+  },
+  "homepage": "https://github.com/GammaGos/rnvm#readme"
+}
