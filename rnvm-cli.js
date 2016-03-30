@@ -103,7 +103,8 @@ function use(version){
   }
 }
 function existModule(newversionPath,moduleName){
-  var execStr = 'cd '+newversionPath+'/node_modules/'+moduleName+' && npm link && cd '+process.cwd()+' && npm link '
+
+  var execStr = 'npm config set prefix  /Users/'+user+'/rnvm/prefix_node_modules/react-native/'+' && cd '+newversionPath+'/node_modules/'+moduleName+' && npm link && cd '+process.cwd()+' && npm link '
   +moduleName;
   console.log(execStr);
   exec(execStr, function(e, stdout, stderr) {
